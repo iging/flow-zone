@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Footer = () => {
   const newDate = new Date().getFullYear();
+
   return (
     <FooterContainer>
       <FooterContent>
@@ -11,7 +12,7 @@ const Footer = () => {
             reserved.
           </CopyrightText>
           <DeveloperText>
-            Developed by <Highlight>akosikhada</Highlight>
+            Developed by <Highlight>iging</Highlight>
           </DeveloperText>
         </FooterTextContainer>
       </FooterContent>
